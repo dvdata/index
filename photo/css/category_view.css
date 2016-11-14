@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* Category View */
+
+#category_view_container{
+	position:absolute;
+	
+	left:0px;
+	top:0px;
+	
+	width:100%;
+	height:100%;
+	
+	padding: 0;
+	
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	
+	visibility:hidden;
+	display:none;
+	
+	pointer-events:auto;
+	cursor:pointer;
+	
+	z-index:30;
+}
+
+.category_view_item{
+	position:absolute;
+	
+	left:0px;
+	top:0px;
+	
+	width:16.67%;/*16.66666666666667%;*/
+	height:100%;
+	
+	background-color:#000;
+	background-position:center center;
+	background-size:cover;
+	
+	-webkit-filter: grayscale(100%);
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+	filter: gray; /* IE6-9 */
+	opacity:.65;
+	
+	pointer-events:auto;
+	
+	z-index:25;
+}
+
+.category_view_item:hover{
+	-webkit-filter: grayscale(0%);
+	filter: none;
+	
+	opacity:1.0;
+	
+	z-index:auto;
+}
+
+#category_view_item_1{
+	margin-left:0%;
+	
+	background-image:url(http://wretchedbeauty.com.s3.amazonaws.com/configuration/gallery/image_strips/gallery_strip_01.jpg);
+}
+
+#category_view_item_2{
+	margin-left:16.66666666666667%;
+	
+	background-image:url(http://wretchedbeauty.com.s3.amazonaws.com/configuration/gallery/image_strips/gallery_strip_02.jpg);
+}
+
+#category_view_item_3{
+	margin-left:33.33333333333333%;
+	
+	background-image:url(http://wretchedbeauty.com.s3.amazonaws.com/configuration/gallery/image_strips/gallery_strip_03.jpg);
+}
+
+#category_view_item_4{
+	margin-left:50%;
+	
+	background-image:url(http://wretchedbeauty.com.s3.amazonaws.com/configuration/gallery/image_strips/gallery_strip_04.jpg);
+}
+
+#category_view_item_5{
+	margin-left:66.66666666666667%;
+	
+	background-image:url(http://wretchedbeauty.com.s3.amazonaws.com/configuration/gallery/image_strips/gallery_strip_05.jpg);
+}
+
+#category_view_item_6{
+	margin-left:83.33333333333334%;
+	
+	background-image:url(http://wretchedbeauty.com.s3.amazonaws.com/configuration/gallery/image_strips/gallery_strip_06.jpg);
+}
+
+#category_view_static{
+	possiton:absolute;
+	
+	width:100%;
+	height:100%;
+	
+	left:0;
+	top:0;
+	
+	background-image:url(../images/spacer.gif);
+	
+	z-index:20;
+}
+
+#category_view_close_tab{
+	width:115px!important;
+	height: 29px!important;
+	
+	top: 15px!important;
+	left: 13px!important;
+	
+	background: url("../images/back_close_tab.png") no-repeat 0 0!important;
+}
+
+#category_view_close_tab:hover{
+	background-position: 0 -29px!important;
+}

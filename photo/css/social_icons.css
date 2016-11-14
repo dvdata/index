@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* Social Icons */
+
+#social_buttons { 
+	position:absolute;
+	
+	top:450px;
+	left:42px!important;
+	
+	/*visibility:hidden;
+	display:none;
+	-ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(grayscale=1)";
+ 	filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);*/
+	
+	opacity:0.0;
+	
+	z-index:99999;
+}
+
+#like_button { 
+	width:160px; 
+	position:absolute; 
+	left:8px;
+	overflow:hidden;
+}
+
+#twitter_button { 
+	width:156px;
+	overflow:hidden;
+	position:absolute;
+
+	left:144px;/*177px;*/ 
+	
+	/*border-width:0px;
+	border: none;*/
+	
+	visibility:visible!important;
+	display:block!important;
+}
+
+#gplus_button { 
+	width:35px;
+	overflow:hidden;
+	position:absolute;  
+	left:94px;
+}
+
+#pinterest_button { 
+	width:50px;
+	overflow:hidden;
+	position:absolute;  
+	left:94px;/*131px;*/ 
+}

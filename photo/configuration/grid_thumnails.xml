@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gridConfig background_image="configuration/grid/grid_background_img.jpg">
+	<photo id="1" groupID="1">
+			<thumbnail>./configuration/grid/grid_photo_15.jpg</thumbnail>
+			<contentPath></contentPath>
+	</photo>
+	<photo id="2" groupID="1">
+			<thumbnail>./configuration/grid/grid_photo_09.jpg</thumbnail>
+			<contentPath></contentPath>
+	</photo>
+	<photo id="3" groupID="1">
+			<thumbnail>./configuration/grid/grid_photo_03.jpg</thumbnail>
+			<contentPath></contentPath>
+	</photo>
+	<photo id="4" groupID="2">
+			<thumbnail>./configuration/grid/grid_photo_06.jpg</thumbnail>
+			<contentPath></contentPath>
+	</photo>
+	<photo id="5" groupID="2">
+			<thumbnail>./configuration/grid/grid_photo_12.jpg</thumbnail>
+			<contentPath></contentPath>
+	</photo>
+	<photo id="6" groupID="2">
+			<thumbnail>./configuration/grid/grid_photo_24.jpg</thumbnail>
+			<contentPath></contentPath>
+	</photo>
+	<photo id="7" groupID="3">
+			<thumbnail>./configuration/grid/grid_photo_30.jpg</thumbnail>
+			<contentPath></contentPath>
+	</photo>
+	<photo id="8" groupID="6">
+			<thumbnail>./configuration/grid/grid_photo_28.jpg</thumbnail>
+			<contentPath></contentPath>
+	</photo>
+	<photo id="9" groupID="6">
+			<thumbnail>./configuration/grid/grid_photo_35.jpg</thumbnail>
+			<contentPath></contentPath>
+	</photo>
+	<photo id="10" groupID="1">
+			<thumbnail>./configuration/grid/grid_photo_38.jpg</thumbnail>
+			<contentPath></contentPath>
+	</photo>
+	<photo id="11" groupID="3">
+			<thumbnail>./configuration/grid/grid_photo_43.jpg</thumbnail>
+			<contentPath></contentPath>
+	</photo>
+	<photo id="12" groupID="3">
+			<thumbnail>./configuration/grid/grid_photo_46.jpg</thumbnail>
+			<contentPath></contentPath>
+	</photo>
+	<photo id="13" groupID="6">
+			<thumbnail>./configuration/grid/grid_photo_54.jpg</thumbnail>
+			<contentPath></contentPath>
+	</photo>
+	<photo id="14" groupID="6">
+			<thumbnail>./configuration/grid/grid_photo_50.jpg</thumbnail>
+			<contentPath></contentPath>
+	</photo>
+	<photo id="15" groupID="4">
+			<thumbnail>./configuration/grid/grid_photo_58.jpg</thumbnail>
+			<contentPath></contentPath>
+	</photo>
+	<photo id="16" groupID="5">
+			<thumbnail>./configuration/grid/grid_photo_63.jpg</thumbnail>
+			<contentPath></contentPath>
+	</photo>
+	<photo id="17" groupID="5">
+			<thumbnail>./configuration/grid/grid_photo_71.jpg</thumbnail>
+			<contentPath></contentPath>
+	</photo>
+	<photo id="18" groupID="5">
+			<thumbnail>./configuration/grid/grid_photo_77.jpg</thumbnail>
+			<contentPath></contentPath>
+	</photo>
+	<photo id="19" groupID="4">
+			<thumbnail>./configuration/grid/grid_photo_68.jpg</thumbnail>
+			<contentPath></contentPath>
+	</photo>
+	<photo id="20" groupID="4">
+			<thumbnail>./configuration/grid/grid_photo_74.jpg</thumbnail>
+			<contentPath></contentPath>
+	</photo>
+	<photo id="21" groupID="5">
+			<thumbnail>./configuration/grid/grid_photo_82.jpg</thumbnail>
+			<contentPath></contentPath>
+	</photo>
+</gridConfig>

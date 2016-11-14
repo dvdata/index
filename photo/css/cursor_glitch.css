@@ -1,0 +1,33 @@
+/* CSS Document */
+#cursor_glitch_container{
+	position:absolute;
+	
+	-moz-transform-origin: 50% 50% 50%;
+	-moz-transform: perspective(1300px)
+	translate3d(0px, 0px, 0px);
+	scale3d(1, 1, 1);
+	-moz-transform-style: preserve-3d;
+	-moz-backface-visibility: hidden;
+	
+	transform-origin: 50% 50% 50%;
+	transform: perspective(1300px) transform-style: preserve-3d;
+	backface-visibility: hidden;
+	
+	width:102px;
+	height:102px;
+	
+	display:hidden;
+	opacity:0;
+	
+	margin-left:15px;
+	margin-top:15px;
+	
+	background-image:url('../images/cursor_glitch_osx.png');
+	
+	cursor:none;
+	pointer-events: none;
+	
+	z-index:999999999;
+}
+	
+/* css end*/
