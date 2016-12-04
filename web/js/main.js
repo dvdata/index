@@ -229,7 +229,7 @@ app.ui.preloader = {
 
             Modernizr.load({
 
-                load : [path +'js/app/app-home.js'],
+                load : [path +'app/app-home.js'],
                 complete:function(){
 
                     if(app.home){
@@ -244,7 +244,7 @@ app.ui.preloader = {
 
 
             Modernizr.load({
-                load : [path +'js/vendor/magnetic.js',path +'js/app/app-about.js'],
+                load : [path +'vendor/magnetic.js',path +'app/app-about.js'],
                 complete:function(){
 
                     if(app.about){
@@ -261,7 +261,7 @@ app.ui.preloader = {
 
 
             Modernizr.load({
-                load : [path +'js/vendor/tagcanvas.js',path +'js/app/app-skills.js'],
+                load : [path +'vendor/tagcanvas.js',path +'app/app-skills.js'],
                 complete:function(){
 
                     if(app.skills){
@@ -277,7 +277,7 @@ app.ui.preloader = {
 
 
             Modernizr.load({
-                load : [path +'js/vendor/magicwall.js',path +'js/app/app-gallery.js'],
+                load : [path +'vendor/magicwall.js',path +'app/app-gallery.js'],
                 complete:function(){
 
                     if(app.gallery){
@@ -294,7 +294,7 @@ app.ui.preloader = {
             //contact
             Modernizr.load({
 
-                load : [path +'js/app/app-contact.js'],
+                load : [path +'app/app-contact.js'],
                 complete:function(){
 
                     if(app.contact){
@@ -365,7 +365,7 @@ var delay = (function(){
 //HOME PAGE
 Modernizr.load({
     test: $('.container.home-page').size() >0,
-    yep : [path+'js/app/app-home.js'],
+    yep : [path+'app/app-home.js'],
     complete:function(){
 
         if(app.home){
@@ -382,7 +382,7 @@ Modernizr.load({
 //ABOUT
 Modernizr.load({
     test: $('.container.about').size() > 0,
-    yep : [path +'js/vendor/magnetic.js',path+'js/app/app-about.js'],
+    yep : [path +'vendor/magnetic.js',path+'app/app-about.js'],
     complete:function(){
 
         if(app.about){
@@ -399,7 +399,7 @@ Modernizr.load({
 //TEXT PAGE
 Modernizr.load({
     test: $('.container.text-page').size() > 0,
-    yep : [path+'js/app/app-text.js'],
+    yep : [path+'app/app-text.js'],
     complete:function(){
 
         if(app.text){
@@ -414,7 +414,7 @@ Modernizr.load({
 //contact
 Modernizr.load({
     test: $('.container.contact').size() > 0,
-    yep : [path+'js/app/app-contact.js'],
+    yep : [path+'app/app-contact.js'],
     complete:function(){
 
         if(app.contact){
@@ -429,7 +429,7 @@ Modernizr.load({
 //SKILLS
 Modernizr.load({
     test: $('.container.skills').size() >0,
-    yep : [path +'js/vendor/tagcanvas.js',path+'js/app/app-skills.js'],
+    yep : [path +'vendor/tagcanvas.js',path+'app/app-skills.js'],
     complete:function(){
 
         if(app.skills){
@@ -445,7 +445,7 @@ Modernizr.load({
 //GALLERY
 Modernizr.load({
     test: $('.container.gallery').size() >0,
-    yep : [path+'js/vendor/magicwall.js',path+'js/app/app-gallery.js'],
+    yep : [path+'vendor/magicwall.js',path+'app/app-gallery.js'],
     complete:function(){
 
         if(app.gallery){
