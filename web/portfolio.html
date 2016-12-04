@@ -1,0 +1,374 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>JJ - Web Developer / Wordpress / Angular JS</title>
+    <meta name="description" content="" />
+
+    <link rel='stylesheet' href='css/style.css' media='all' />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/third-party.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link href='https://fonts.googleapis.com/css?family=La+Belle+Aurore' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+
+    <script type='text/javascript' src='js/vendor/jquery-1.9.1.min.js'></script>
+
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+
+    <script>
+        var path = "";
+        var errmsg = '<div class="error-info animated fadeInUp"> <span><span>O</span>ops!</span> <p>Something went wrong, please refresh the page or try again later.</p> </div>'
+        var msg1 = "Please fill in all required fields";
+        var msg2 = "Please wait. Processing";
+        var msg3 = "Your e-mail has been successfully sent. Thank You!";
+        var msg4 = "Failed to send your message. Please try later or contact me directly jeznacki13@gmail.com.";
+        var msg5 = "Please note these are not my designs.";
+        var msg6 = "Just the code.";
+        var msg7 = "Double click to add more elements.";
+        var msg8 = "Scroll to zoom in/out";
+    </script>
+
+
+
+</head>
+
+<body>
+
+
+    <div id="nav_bar">
+
+        <a class="logo" rel="index" href="index.html">
+            <img src="img/logo.png" alt="Wordpress Developer Logo, Web Developer Logo , Front End Developer Logo" />
+            <img src="img/logo_sub.png" alt="Wordpress Developer, Web Developer , Front End Developer" />
+        </a>
+
+        <div class="lang">
+            <a href="index.html" class="active">EN</a>
+            <a href="#" class="">PL</a>
+        </div>
+
+        <nav class="en">
+            <a rel="index" href="index.html" class="home-link active"><i class="fa fa-home"></i></a>
+            <a rel="about" href="about.html" class=""><i class="fa fa-user-secret"></i></a>
+            <a rel="skills" href="skills.html" class=""><i class="fa fa-code"></i></a>
+            <a rel="gallery" href="portfolio.html" class=""><i class="fa fa-picture-o"></i></a>
+            <a rel="contact" href="contact.html" class=""><i class="fa fa-envelope-o"></i></a>
+        </nav>
+
+        <ul>
+            <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li><a href="#" target="_blank"><i class="fa fa-rss"></i></a>
+            </li>
+        </ul>
+
+        <a id="mobile-link" href=""><i class="fa fa-bars"></i></a>
+
+    </div>
+
+    <div id="page" class="en">
+
+
+        <div id="demo" class="container gallery magicwall">
+
+            <ul class="magicwall-grid">
+
+                Dental group
+
+                <li data-thumb="https://jacekjeznach.com/wp-content/uploads/2016/11/cover-e1478002851293.jpeg">
+
+                    <div class="hover-content vcenter"></div>
+
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/11/1-2.jpeg' title='<a href="http://sdg.pixxels.net/" target="_blank">http://sdg.pixxels.net/</a>' class='colorbox' rel='magicwall11'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/11/2-1.jpeg' title='<a href="http://sdg.pixxels.net/" target="_blank">http://sdg.pixxels.net/</a>' class='colorbox' rel='magicwall11'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/11/3-1.jpeg' title='<a href="http://sdg.pixxels.net/" target="_blank">http://sdg.pixxels.net/</a>' class='colorbox' rel='magicwall11'></a>
+                </li>
+
+
+                Interiomarine.com
+
+                <li data-thumb="https://jacekjeznach.com/wp-content/uploads/2016/11/1-1-e1478002941529.jpeg">
+
+                    <div class="hover-content vcenter"></div>
+
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/11/Am-I-Responsive-.jpeg' title='<a href="http://interiomarine.com/" target="_blank">http://interiomarine.com/</a>' class='colorbox' rel='magicwall12'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/11/3.jpeg' title='<a href="http://interiomarine.com/" target="_blank">http://interiomarine.com/</a>' class='colorbox' rel='magicwall12'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/11/2.jpeg' title='<a href="http://interiomarine.com/" target="_blank">http://interiomarine.com/</a>' class='colorbox' rel='magicwall12'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/11/1.jpeg' title='<a href="http://interiomarine.com/" target="_blank">http://interiomarine.com/</a>' class='colorbox' rel='magicwall12'></a>
+                </li>
+
+
+                Greta
+
+                <li data-thumb="https://jacekjeznach.com/wp-content/uploads/2016/09/Greta-Offical-Online-Store-Greta-e1478003527992.jpeg">
+
+                    <div class="hover-content vcenter"></div>
+
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/09/2.jpeg' title='<a href="https://gretaonline.com/" target="_blank">https://gretaonline.com/</a>' class='colorbox' rel='magicwall13'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/09/3.jpeg' title='<a href="https://gretaonline.com/" target="_blank">https://gretaonline.com/</a>' class='colorbox' rel='magicwall13'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/09/4.jpeg' title='<a href="https://gretaonline.com/" target="_blank">https://gretaonline.com/</a>' class='colorbox' rel='magicwall13'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/09/Am-I-Responsive-.jpeg' title='<a href="https://gretaonline.com/" target="_blank">https://gretaonline.com/</a>' class='colorbox' rel='magicwall13'></a>
+                </li>
+
+
+                Exceldent
+
+                <li data-thumb="https://jacekjeznach.com/wp-content/uploads/2016/06/Strona-główna-ExcelDent-Nowoczesna-stomatologia-w-Szczecinie-e1478003026252.jpeg">
+
+                    <div class="hover-content vcenter"></div>
+
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/06/2.jpeg' title='<a href="https://exceldent.pl/" target="_blank">https://exceldent.pl/</a>' class='colorbox' rel='magicwall14'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/06/Am-I-Responsive-.jpeg' title='<a href="https://exceldent.pl/" target="_blank">https://exceldent.pl/</a>' class='colorbox' rel='magicwall14'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/06/1.jpeg' title='<a href="https://exceldent.pl/" target="_blank">https://exceldent.pl/</a>' class='colorbox' rel='magicwall14'></a>
+                </li>
+
+
+                Feedback
+
+                <li data-thumb="https://jacekjeznach.com/wp-content/uploads/2016/02/61-1-e1478003137905.jpeg">
+
+                    <div class="hover-content vcenter"></div>
+
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/02/Nowe-role-w-marketingu-content-is-a-king-Feedback-e1455986818535.jpeg' title='<a href="http://www.feedbk.pl/" target="_blank">http://www.feedbk.pl/</a>' class='colorbox' rel='magicwall15'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/02/61.jpeg' title='<a href="http://www.feedbk.pl/" target="_blank">http://www.feedbk.pl/</a>' class='colorbox' rel='magicwall15'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/02/Am-I-Responsive--e1455986765831.jpeg' title='<a href="http://www.feedbk.pl/" target="_blank">http://www.feedbk.pl/</a>' class='colorbox' rel='magicwall15'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/02/Am-I-Responsive-1-e1455986931893.jpeg' title='<a href="http://www.feedbk.pl/" target="_blank">http://www.feedbk.pl/</a>' class='colorbox' rel='magicwall15'></a>
+                </li>
+
+
+                DRONY.24
+
+                <li data-thumb="https://jacekjeznach.com/wp-content/uploads/2015/05/Drony24-Filmy-i-zdjęcia-z-drona-e1458250878263.jpeg">
+
+                    <div class="hover-content vcenter"></div>
+
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2015/05/Am-I-Responsive-.jpeg' title='<a href="https://drony24.com/" target="_blank">drony24.com</a>' class='colorbox' rel='magicwall16'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2015/05/5.jpeg' title='<a href="https://drony24.com/" target="_blank">drony24.com</a>' class='colorbox' rel='magicwall16'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2015/05/2.jpeg' title='<a href="https://drony24.com/" target="_blank">drony24.com</a>' class='colorbox' rel='magicwall16'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2015/05/Drony24-Filmy-i-zdjęcia-z-drona-2.jpeg' title='<a href="https://drony24.com/" target="_blank">drony24.com</a>' class='colorbox' rel='magicwall16'></a>
+                </li>
+
+
+                IT SWITCH
+
+                <li data-thumb="https://jacekjeznach.com/wp-content/uploads/2015/05/Home-IT-Switch-e1478003448682.jpeg">
+
+                    <div class="hover-content vcenter"></div>
+
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2015/05/Contact-IT-Switch.png' title='<a href="http://itswitch.esy.es/" target="blank">http://itswitch.esy.es/</a>' class='colorbox' rel='magicwall17'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2015/05/MYOB-IT-Switch.png' title='<a href="http://itswitch.esy.es/" target="blank">http://itswitch.esy.es/</a>' class='colorbox' rel='magicwall17'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2015/05/1.png' title='<a href="http://itswitch.esy.es/" target="blank">http://itswitch.esy.es/</a>' class='colorbox' rel='magicwall17'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2015/05/2.png' title='<a href="http://itswitch.esy.es/" target="blank">http://itswitch.esy.es/</a>' class='colorbox' rel='magicwall17'></a>
+                </li>
+
+
+                PO
+
+                <li data-thumb="https://jacekjeznach.com/wp-content/uploads/2015/05/Bez-nazwy-8.jpg">
+
+                    <div class="hover-content vcenter"></div>
+
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2015/05/Wybory-do-Parlamentu-Europejskiego-2014-kandydaci-PO-1.jpg' title='<a href="http://jacekjeznach.com/projekty/platforma1/index.html" target="blank">PO EU Elections</a>' class='colorbox' rel='magicwall18'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2015/05/12.png' title='<a href="http://jacekjeznach.com/projekty/platforma1/index.html" target="blank">PO EU Elections</a>' class='colorbox' rel='magicwall18'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2015/05/22.png' title='<a href="http://jacekjeznach.com/projekty/platforma1/index.html" target="blank">PO EU Elections</a>' class='colorbox' rel='magicwall18'></a>
+                </li>
+
+
+                Codeverters
+
+                <li data-thumb="https://jacekjeznach.com/wp-content/uploads/2016/11/Codeverters-We-convert-Your-design-e1478003842959.jpeg">
+
+                    <div class="hover-content vcenter"></div>
+
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/11/2-3.jpeg' title='<a href="https://codeverters.com" target="_blank">Codeverters.com</a>' class='colorbox' rel='magicwall19'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/11/3-3.jpeg' title='<a href="https://codeverters.com" target="_blank">Codeverters.com</a>' class='colorbox' rel='magicwall19'></a>
+                </li>
+
+
+                villas away
+
+                <li data-thumb="https://jacekjeznach.com/wp-content/uploads/2015/05/Bez-nazwy-1.jpg">
+
+                    <div class="hover-content vcenter"></div>
+
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2015/05/destination-Almeria-Villas-Away-e1434019273652.jpg' title='<a href="http://www.villasaway.co.uk" target="blank">http://www.villasaway.co.uk</a>' class='colorbox' rel='magicwall110'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2015/05/Bez-nazwy-16-e1434019290401.jpg' title='<a href="http://www.villasaway.co.uk" target="blank">http://www.villasaway.co.uk</a>' class='colorbox' rel='magicwall110'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2015/05/11.png' title='<a href="http://www.villasaway.co.uk" target="blank">http://www.villasaway.co.uk</a>' class='colorbox' rel='magicwall110'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2015/05/21.png' title='<a href="http://www.villasaway.co.uk" target="blank">http://www.villasaway.co.uk</a>' class='colorbox' rel='magicwall110'></a>
+                </li>
+
+
+                Aqua Tersus
+
+                <li data-thumb="https://jacekjeznach.com/wp-content/uploads/2016/04/Aqua-Tersus2-1-e1478003268499.jpeg">
+
+                    <div class="hover-content vcenter"></div>
+
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/04/Aqua-Tersus2.jpeg' title='<a href="http://www.aquatersus.com/" target="_blank">http://www.aquatersus.com/</a>' class='colorbox' rel='magicwall111'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/04/Aqua-Tersus4.jpeg' title='<a href="http://www.aquatersus.com/" target="_blank">http://www.aquatersus.com/</a>' class='colorbox' rel='magicwall111'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/04/tersus1.jpeg' title='<a href="http://www.aquatersus.com/" target="_blank">http://www.aquatersus.com/</a>' class='colorbox' rel='magicwall111'></a>
+                </li>
+
+
+                zepak
+
+                <li data-thumb="https://jacekjeznach.com/wp-content/uploads/2015/05/Bez-nazwy-9.jpg">
+
+                    <div class="hover-content vcenter"></div>
+
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2015/05/ZEPAK-Informacje-o-firmie.jpg' title='<a href="http://zepak.com.pl/pl/" target="blank">http://zepak.com.pl/pl/</a>' class='colorbox' rel='magicwall112'></a>
+                </li>
+
+
+                OBI
+
+                <li data-thumb="https://jacekjeznach.com/wp-content/uploads/2015/05/Bez-nazwy-23.jpg">
+
+                    <div class="hover-content vcenter"></div>
+
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2015/05/OBI.jpg' title='<a href="http://jacekjeznach.com/other/projekty/regular/obi/startseite.html" target="_blank">OBI BAUMARKT</a>' class='colorbox' rel='magicwall113'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2015/05/OBI2.jpg' title='<a href="http://jacekjeznach.com/other/projekty/regular/obi/startseite.html" target="_blank">OBI BAUMARKT</a>' class='colorbox' rel='magicwall113'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2015/05/23.png' title='<a href="http://jacekjeznach.com/other/projekty/regular/obi/startseite.html" target="_blank">OBI BAUMARKT</a>' class='colorbox' rel='magicwall113'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2015/05/Best-Online-Responsive-Website-Testing-tool-Supports-localhost-Testing.png' title='<a href="http://jacekjeznach.com/other/projekty/regular/obi/startseite.html" target="_blank">OBI BAUMARKT</a>' class='colorbox' rel='magicwall113'></a>
+                </li>
+
+
+                CQC
+
+                <li data-thumb="https://jacekjeznach.com/wp-content/uploads/2015/05/Bez-nazwy-6.jpg">
+
+                    <div class="hover-content vcenter"></div>
+
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2015/05/Testimonials-CQC-Solutions.png' title='<a href="http://www.cqc-solutions.com/" target="blank">http://www.cqc-solutions.com/</a>' class='colorbox' rel='magicwall114'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2015/05/Welcome-to-CQC-Solutions-creating-coherence-between-people-processes-and-systems..png' title='<a href="http://www.cqc-solutions.com/" target="blank">http://www.cqc-solutions.com/</a>' class='colorbox' rel='magicwall114'></a>
+                </li>
+
+
+                Exceldentshop
+
+                <li data-thumb="https://jacekjeznach.com/wp-content/uploads/2016/11/cover-1-e1478002760422.jpeg">
+
+                    <div class="hover-content vcenter"></div>
+
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/11/2-2.jpeg' title='2' class='colorbox' rel='magicwall115'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/11/3-2.jpeg' title='3' class='colorbox' rel='magicwall115'></a>
+                    <a href='https://jacekjeznach.com/wp-content/uploads/2016/11/1-3.jpeg' title='1' class='colorbox' rel='magicwall115'></a>
+                </li>
+
+
+                VW
+
+                <li data-thumb="https://jacekjeznach.com/wp-content/uploads/2015/05/Bez-nazwy-2-1.png">
+
+                    <div class="hover-content vcenter"></div>
+
+
+                </li>
+
+
+
+            </ul>
+
+
+
+        </div>
+
+    </div>
+
+    <div id="particles-js"></div>
+
+    <div class="preloader">
+        <div class="inner">
+
+            <img src="https://jacekjeznach.com/wp-content/themes/jj/img/logopreload.png" alt="Wordpress Developer Loader, Web Developer Loader , Front End Developer Loader" />
+            <span>Jack is thinking</span>
+
+
+            <div class="progress-bar">
+
+                <!--<span>0</span>-->
+
+                <div class="progress-bar_bg">
+                    <div></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <a class="blog-link" href="https://jacekjeznach.com/wall/">
+        <img src="https://jacekjeznach.com/wp-content/themes/jj/img/blogdark.png" alt="web developer blog, wordpress developer blog" />
+        <span class="folded-corner"></span>
+    </a>
+
+    <div id="rotate"></div>
+    <div id="outdated">
+        <h6>Your browser is out-of-date!</h6>
+        <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">Update my browser now </a>
+        </p>
+        <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a>
+        </p>
+    </div>
+
+
+    <!-- OUTDATED browser -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.3/outdatedbrowser.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.3/outdatedbrowser.min.js"></script>
+    <script>
+        //event listener: DOM ready
+        function addLoadEvent(func) {
+                var oldonload = window.onload;
+                if (typeof window.onload != 'function') {
+                    window.onload = func;
+                } else {
+                    window.onload = function() {
+                        if (oldonload) {
+                            oldonload();
+                        }
+                        func();
+                    }
+                }
+            }
+            //call plugin function after DOM ready
+        addLoadEvent(function() {
+            outdatedBrowser({
+                bgColor: '#f25648',
+                color: '#ffffff',
+                lowerThan: 'transform'
+
+            })
+        });
+    </script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/velocity/1.2.2/velocity.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+
+
+
+
+</body>
+
+</html>
