@@ -120,15 +120,15 @@ var jPlayerAndroidFix = (function($) {
 
   var bubble = {
     title:"Bubble",
-    m4a:"http://www.jplayer.org/audio/mp3/Miaow-07-Bubble.mp3",
-    mp3:"http://www.jplayer.org/audio/mp3/Miaow-07-Bubble.mp3",
-    oga:"http://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
+    m4a:"Miaow-07-Bubble.mp3",
+    mp3:"Miaow-07-Bubble.mp3",
+    oga:"Miaow-07-Bubble.ogg"
   };
   var lismore = {
     title:"Lismore",
-    m4a:"http://www.jplayer.org/audio/mp3/Miaow-04-Lismore.mp3",
-    mp3:"http://www.jplayer.org/audio/mp3/Miaow-04-Lismore.mp3",
-    oga:"http://www.jplayer.org/audio/ogg/Miaow-04-Lismore.ogg"
+    m4a:"Miaow-04-Lismore.mp3",
+    mp3:"Miaow-04-Lismore.mp3",
+    oga:"Miaow-04-Lismore.ogg"
   };
 
   var options = {
@@ -229,9 +229,9 @@ var myPlaylist = new jPlayerPlaylist({
     {
       title:"Cro Magnon Man",
       artist:"The Stark Palace",
-      mp3:"http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
-      oga:"http://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg",
-      poster: "http://www.jplayer.org/audio/poster/The_Stark_Palace_640x360.png"
+      mp3:"TSP-01-Cro_magnon_man.mp3",
+      oga:"TSP-01-Cro_magnon_man.ogg",
+      poster: "The_Stark_Palace_640x360.png"
     }
   ], {
     playlistOptions: {
