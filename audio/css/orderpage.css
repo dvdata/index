@@ -1,0 +1,402 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,700,600,800,400);
+/**********fonts included here***********/
+/**********variables declared here***********/
+/***************************************** TABS MENU SECTION ***********************************************/
+.fes-vendor-menu-bsg {
+  margin-top: 50px;
+}
+.fes-vendor-menu-bsg > ul {
+  text-align: center;
+}
+.fes-vendor-menu-bsg > ul li {
+  background: #eeeeee;
+  padding: 10px 0px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  margin: 2px auto;
+}
+.fes-vendor-menu-bsg > ul li > a {
+  padding: 25px 30px;
+  text-decoration: none;
+  color: #919191;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.fes-vendor-menu-bsg > ul li:hover {
+  background: #51c0e9;
+}
+.fes-vendor-menu-bsg > ul li:hover a {
+  color: #FFFFFF;
+}
+.fes-vendor-menu-bsg > ul li.active {
+  background: #51c0e9;
+}
+.fes-vendor-menu-bsg > ul li.active a {
+  color: #FFFFFF;
+}
+.vendor-line {
+  width: 100%;
+  height: 5px;
+  background: #ebebeb;
+  margin-top: -16px;
+  margin-bottom: 80px;
+}
+/***************************************** HEADING STYLING ***********************************************/
+.audiofy-heading {
+  clear: both;
+  height: 13.09375px;
+  background-color: #F0F0F0;
+}
+.audiofy-heading .title {
+  background-color: #FFFFFF;
+  text-transform: uppercase;
+  float: left;
+  padding-right: 20px;
+  margin-bottom: 42px;
+  margin-top: -4px;
+}
+.audiofy-heading .title h3 {
+  margin: 0px;
+  line-height: 26px;
+  color: #333;
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px !important;
+}
+.number {
+  font-family: 'Open Sans', sans-serif;
+}
+/************************************************ LEFT WING ************************************************/
+.left-wing {
+  margin-bottom: 30px;
+}
+.left-wing .table-orders .table {
+  margin-bottom: 55px;
+}
+.left-wing .table-orders .table thead {
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  color: #aaaaaa;
+  margin: 10px;
+}
+.left-wing .table-orders .table thead tr td {
+  border-bottom: 1px solid #e9e9e9;
+}
+.left-wing .table-orders .table tbody tr td {
+  border: 0px;
+  border-bottom: 1px solid #e9e9e9;
+  vertical-align: middle;
+  padding: 0px !important;
+}
+.left-wing .table-orders .table tbody tr td .products {
+  margin-right: 20px;
+}
+.left-wing .table-orders .table tbody tr td .products .product-image {
+  position: relative;
+  width: 85px;
+  float: left;
+}
+.left-wing .table-orders .table tbody tr td .products .product-image img {
+  width: 100%;
+  height: 85px;
+}
+.left-wing .table-orders .table tbody tr td .products .product-image i {
+  color: #ffffff;
+  font-size: 14px;
+  background-color: #33b5e5;
+  padding: 6px 6px 6px 8px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.left-wing .table-orders .table tbody tr td .products .type-price {
+  line-height: 26px;
+  text-transform: capitalize;
+  padding-left: 97px;
+  padding-top: 30px;
+}
+.left-wing .table-orders .table tbody tr td .products .type-price a {
+  text-decoration: none;
+  color: #333333;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+.left-wing .table-orders .table tbody tr td.genre {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 600;
+  color: #333333;
+  line-height: 26px;
+  font-size: 14px;
+}
+.left-wing .table-orders .table tbody tr td.sales {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 600;
+  color: #555555;
+  line-height: 26px;
+  font-size: 14px;
+}
+.left-wing .table-orders .table tbody tr td.date {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  color: #555555;
+  line-height: 26px;
+  font-size: 14px;
+}
+.left-wing .table-orders .table tbody tr td.price {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 600;
+  color: #33b5e5;
+  line-height: 26px;
+  font-size: 14px;
+}
+.left-wing .table-orders .table tbody tr td:first-child {
+  border-left: 1px #e9e9e9 red !important;
+}
+.left-wing .table-orders .table tbody tr td:last-child {
+  border-right: 1px solid #e9e9e9;
+  padding-right: 20px !important;
+}
+.left-wing .table-orders .table tbody tr td .btn-custom {
+  border-radius: 0px;
+  background: #33b5e5;
+  font-size: 11px;
+  line-height: 26px;
+  color: #FFFFFE;
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  outline: none;
+  box-shadow: none;
+  border: 0px;
+  padding: 5px 20px;
+  letter-spacing: 1px;
+}
+.left-wing .progress {
+  height: 10px;
+  border-radius: 0px;
+  background: #8c8c8c;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.left-wing .progress .progress-bar {
+  background: #33b5e5;
+}
+/**************************************** RIGHT WING **********************************************/
+.right-wing {
+  margin-bottom: 30px;
+  /*************************** AUTHOR PORTFOLIO *****************************/
+}
+.right-wing .widget {
+  border: 1px solid #e9e9e9;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+.right-wing .widget h4.heading {
+  font-size: 14px;
+  line-height: 26px;
+  color: #333333;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.right-wing .widget h5.sub-heading {
+  font-size: 14px;
+  line-height: 26px;
+  color: #333333;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.right-wing .widget p {
+  font-size: 14px;
+  line-height: 26px;
+  color: #8c8c8c;
+  font-family: 'Roboto Slab', serif;
+  margin-bottom: 0px;
+}
+.right-wing .widget > h5.progress-bar-heading {
+  font-size: 12px;
+  line-height: 26px;
+  color: #333333;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0px;
+  letter-spacing: 1px;
+}
+.right-wing .widget .progress {
+  height: 10px;
+  border-radius: 0px;
+  background: #8c8c8c;
+  margin-bottom: 20px;
+}
+.right-wing .widget .progress .progress-bar {
+  background: #33b5e5;
+}
+.right-wing .author-portfolio {
+  border: 1px solid #e9e9e9;
+  margin-bottom: 30px;
+}
+.right-wing .author-portfolio .author-info {
+  padding: 23px 30px;
+}
+.right-wing .author-portfolio .author-info .image-holder {
+  float: left;
+}
+.right-wing .author-portfolio .author-info .image-holder > img {
+  width: 85px;
+  height: 84px;
+  margin-right: 14px;
+}
+.right-wing .author-portfolio .author-info > h4.heading {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Roboto Slab', serif;
+  line-height: 26px;
+  color: #333333;
+  margin: 0px;
+  text-transform: uppercase;
+}
+.right-wing .author-portfolio .author-info > h4.heading > span > a {
+  text-transform: uppercase;
+  line-height: 26px;
+  color: #33b5e5;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  background: #FFF;
+  padding: 3px 5px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  border: 1px solid transparent;
+}
+.right-wing .author-portfolio .author-info > h4.heading > span > a:hover {
+  background: #33b5e5;
+  color: #FFF;
+}
+.right-wing .author-portfolio .author-info h6.country {
+  font-family: 'Roboto Slab', serif;
+  font-size: 11px;
+  color: #777777;
+  margin: 0px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.right-wing .author-portfolio .author-info h1.earnings {
+  font-size: 24px;
+  font-family: 'Roboto Slab', serif;
+  line-height: 26px;
+  color: #33b5e5;
+  font-weight: 700;
+}
+.right-wing .author-portfolio .author-info > p {
+  padding-top: 20px;
+  font-family: 'Roboto Slab', serif;
+}
+.right-wing .author-portfolio .author-info > p span {
+  font-weight: 700;
+  color: #333333;
+}
+.right-wing .author-portfolio .view-profile {
+  clear: both;
+  padding: 20px 20px;
+  border-top: 1px solid #e9e9e9;
+}
+.right-wing .author-portfolio .view-profile > .btn-custom {
+  border-radius: 0px;
+  background: #33b5e5;
+  font-size: 12px;
+  line-height: 26px;
+  color: #FFFFFE;
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  outline: none;
+  box-shadow: none;
+  border: 0px;
+  padding: 16px 30px;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  border: 1px solid transparent;
+}
+.right-wing .author-portfolio .view-profile > .btn-custom:hover {
+  background: #FFFFFF;
+  color: #33b5e5;
+  border: 1px solid #33b5e5;
+}
+/******************************************** STYLES FOR SELECTIZE TAGS *****************************************/
+.selectize-control.plugin-remove_button [data-value] .remove {
+  position: relative !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 24px !important;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px !important;
+  color: #FFFFFF !important;
+  text-decoration: none;
+  vertical-align: middle;
+  display: inline-block;
+  padding: 1px 0 0 0;
+  border-left: 1px solid rgba(0, 0, 0, 0);
+  -webkit-border-radius: 0 2px 2px 0;
+  -moz-border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-left: 10px !important;
+  border-left: 1px solid #bdbcbc !important;
+  padding-left: 5px !important;
+}
+.selectize-control.multi .selectize-input > div {
+  cursor: pointer;
+  margin: 5px !important;
+  padding: 5px 5px !important;
+  background: #a9a9a9 !important;
+  color: #FFFFFF !important;
+  border-radius: 0px !important;
+  font-size: 12px !important;
+  font-family: 'Roboto Slab', serif !important;
+  padding-left: 10px !important;
+}
+/******************************************** STYLES FOR SELECTIZE TAGS *****************************************/
+@media (max-width: 480px) {
+  .fes-vendor-menu-bsg {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .fes-vendor-menu-bsg > ul {
+    text-align: center;
+  }
+  .fes-vendor-menu-bsg > ul li {
+    display: block;
+  }
+  .vendor-line {
+    display: none;
+  }
+}

@@ -1,0 +1,483 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,700,600,800,400);
+/**********fonts included here***********/
+/**********variables declared here***********/
+/***************************************** HEADING STYLING ***********************************************/
+.audiofy-heading {
+  clear: both;
+  height: 13.09375px;
+  background-color: #F0F0F0;
+}
+.audiofy-heading .title {
+  background-color: #FFFFFF;
+  text-transform: uppercase;
+  float: left;
+  padding-right: 20px;
+  margin-bottom: 42px;
+  margin-top: -4px;
+  line-height: 26px;
+}
+.audiofy-heading .title h3 {
+  margin: 0px;
+  color: #333;
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px !important;
+}
+/******************************** GLOBAL STYLES *********************************/
+.form-style {
+  border-color: #e7e7e7;
+  box-shadow: none !important;
+  outline: 0px !important;
+  border: 1px solid #e7e7e7;
+  border-radius: 0px;
+  height: 45px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  margin-bottom: 5px;
+  background: #fcfcfc;
+}
+.form-style:focus,
+.form-style active {
+  border-color: #e7e7e7;
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+.form-style.textarea {
+  height: auto;
+  border-color: #e7e7e7;
+  box-shadow: none;
+  outline: 0px;
+  resize: none;
+}
+p.title {
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: #555555;
+  margin-bottom: 10px;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+}
+small.help-text {
+  color: #777777;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: capitalize;
+  font-size: 12px;
+  letter-spacing: 0.25px;
+}
+.number {
+  font-family: 'Open Sans', sans-serif;
+}
+/************************************************ LEFT WING ************************************************/
+.left-wing {
+  /************************************************ PROFILE ************************************************/
+  /************************************************ BILLING INFORMATION ************************************************/
+  /************************************************ PROFILE ************************************************/
+  /*************************************** BTN_CUSTOM **********************************************/
+}
+.left-wing .profile {
+  margin-bottom: 50px;
+}
+.left-wing .profile .file-upload {
+  margin-bottom: 22px;
+}
+.left-wing .profile .file-upload .btn-file {
+  border-radius: 0px !important;
+  background: #51c0e9;
+  outline: none;
+  box-shadow: none;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 12px;
+  border: 0px;
+  left: 5px;
+  height: 35px !important;
+}
+.left-wing .profile .file-upload .input-group {
+  font-family: 'Roboto Slab', serif;
+  color: #555555;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.left-wing .profile .file-upload .form-control {
+  border-radius: 0px !important;
+  border-color: #e7e7e7;
+  padding-top: 10px;
+  background: #fcfcfc;
+  border-color: e9e9e9;
+  box-shadow: none;
+  height: 35px;
+}
+.left-wing .profile .category {
+  margin-bottom: 20px;
+}
+.left-wing .profile .category .btn-default {
+  color: #8c8c8c;
+}
+.left-wing .profile .category .input-group .dropdown-toggle {
+  border-radius: 0px;
+  box-shadow: none;
+  outline: none;
+  border-color: #e9e9e9;
+  background: #f0f0f0;
+}
+.left-wing .profile .category .form-control {
+  margin-top: 10px;
+  border-color: #e7e7e7;
+  box-shadow: none;
+  outline: 0px;
+  border-radius: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  margin-bottom: 5px;
+  background: #fcfcfc;
+  margin-top: 0px;
+}
+.left-wing .profile .category .selectpicker {
+  background: #fcfcfc;
+  border-radius: 0px;
+  outline: none;
+  box-shadow: none;
+  border-color: #e9e9e9;
+  margin-bottom: 20px;
+  height: 45px;
+}
+.left-wing .profile .category .selectpicker:focus {
+  border-color: #e9e9e9;
+  outline: none !important;
+}
+.left-wing .profile .category .dropdown-menu {
+  box-shadow: none;
+  outline: none;
+  border-radius: 0px;
+  border-color: #e9e9e9;
+}
+.left-wing .profile .category .dropdown-menu li a {
+  padding: 10px;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+.left-wing .profile .category .dropdown-menu .active a {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #51c0e9 !important;
+  padding: 10px;
+}
+.left-wing .profile .category .dropdown-menu .active a .fa {
+  font-size: 20px;
+  margin-top: 0px !important;
+}
+.left-wing .billing-information {
+  margin-bottom: 50px;
+}
+.left-wing .billing-information .category {
+  margin-bottom: 20px;
+}
+.left-wing .billing-information .category .btn-default {
+  color: #8c8c8c;
+}
+.left-wing .billing-information .category .input-group .form-control {
+  box-shadow: none;
+  border-radius: 0px;
+  background: #fcfcfc;
+  border-color: #e9e9e9;
+}
+.left-wing .billing-information .category .input-group .dropdown-toggle {
+  border-radius: 0px;
+  box-shadow: none;
+  outline: none;
+  border-color: #e9e9e9;
+  background: #f0f0f0;
+}
+.left-wing .billing-information .category .form-control {
+  margin-top: 10px;
+  border-color: #e7e7e7;
+  box-shadow: none;
+  outline: 0px;
+  border-radius: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  margin-bottom: 5px;
+  background: #fcfcfc;
+  margin-top: 0px;
+}
+.left-wing .billing-information .category .selectpicker {
+  background: #fcfcfc;
+  border-radius: 0px;
+  outline: none;
+  box-shadow: none;
+  border-color: #e9e9e9;
+  margin-bottom: 20px;
+  height: 45px;
+}
+.left-wing .billing-information .category .selectpicker:focus {
+  border-color: #e9e9e9;
+  outline: none !important;
+}
+.left-wing .billing-information .category .dropdown-menu {
+  box-shadow: none;
+  outline: none;
+  border-radius: 0px;
+  border-color: #e9e9e9;
+}
+.left-wing .billing-information .category .dropdown-menu li a {
+  padding: 10px;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+.left-wing .billing-information .category .dropdown-menu .active a {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #51c0e9 !important;
+  padding: 10px;
+}
+.left-wing .billing-information .category .dropdown-menu .active a .fa {
+  font-size: 20px;
+  margin-top: 0px !important;
+}
+.left-wing .password {
+  position: relative;
+  margin-bottom: 50px;
+}
+.left-wing .btn-custom {
+  margin-bottom: 30px;
+  outline: none;
+  border-radius: 0px;
+  border-color: #33b5e5;
+  background: #33b5e5;
+  color: #FFFFFF;
+  box-shadow: none;
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 16px;
+  padding: 20px 0px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.left-wing .btn-custom:hover {
+  background: #FFFFFF;
+  color: #33b5e5;
+}
+/**************************************** RIGHT WING **********************************************/
+.right-wing {
+  margin-bottom: 30px;
+  /*************************** AUTHOR PORTFOLIO *****************************/
+}
+.right-wing .widget {
+  border: 1px solid #e9e9e9;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+.right-wing .widget h4.heading {
+  font-size: 14px;
+  line-height: 26px;
+  color: #333333;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.right-wing .widget h5.sub-heading {
+  font-size: 14px;
+  line-height: 26px;
+  color: #333333;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.right-wing .widget p {
+  font-size: 14px;
+  line-height: 26px;
+  color: #8c8c8c;
+  font-family: 'Roboto Slab', serif;
+  margin-bottom: 0px;
+}
+.right-wing .widget > h5.progress-bar-heading {
+  font-size: 12px;
+  line-height: 26px;
+  color: #333333;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0px;
+  letter-spacing: 1px;
+}
+.right-wing .widget .progress {
+  height: 10px;
+  border-radius: 0px;
+  background: #8c8c8c;
+  margin-bottom: 20px;
+}
+.right-wing .widget .progress .progress-bar {
+  background: #33b5e5;
+}
+.right-wing .author-portfolio {
+  border: 1px solid #e9e9e9;
+  margin-bottom: 30px;
+}
+.right-wing .author-portfolio .author-info {
+  padding: 23px 30px;
+}
+.right-wing .author-portfolio .author-info .image-holder {
+  float: left;
+}
+.right-wing .author-portfolio .author-info .image-holder > img {
+  width: 85px;
+  height: 84px;
+  margin-right: 14px;
+}
+.right-wing .author-portfolio .author-info > h4.heading {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Roboto Slab', serif;
+  line-height: 26px;
+  color: #333333;
+  margin: 0px;
+  text-transform: uppercase;
+}
+.right-wing .author-portfolio .author-info > h4.heading > span > a {
+  text-transform: uppercase;
+  line-height: 26px;
+  color: #33b5e5;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  background: #FFF;
+  padding: 3px 5px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid transparent;
+}
+.right-wing .author-portfolio .author-info > h4.heading > span > a:hover {
+  background: #33b5e5;
+  color: #FFF;
+}
+.right-wing .author-portfolio .author-info h6.country {
+  font-family: 'Roboto Slab', serif;
+  font-size: 11px;
+  color: #777777;
+  margin: 0px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.right-wing .author-portfolio .author-info h1.earnings {
+  font-size: 24px;
+  font-family: 'Roboto Slab', serif;
+  line-height: 26px;
+  color: #33b5e5;
+  font-weight: 700;
+}
+.right-wing .author-portfolio .author-info > p {
+  padding-top: 20px;
+  font-family: 'Roboto Slab', serif;
+}
+.right-wing .author-portfolio .author-info > p span {
+  font-weight: 700;
+  color: #333333;
+}
+.right-wing .author-portfolio .view-profile {
+  clear: both;
+  padding: 20px 20px;
+  border-top: 1px solid #e9e9e9;
+}
+.right-wing .author-portfolio .view-profile > .btn-custom {
+  border-radius: 0px;
+  background: #33b5e5;
+  font-size: 12px;
+  line-height: 26px;
+  color: #FFFFFE;
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  outline: none;
+  box-shadow: none;
+  border: 0px;
+  padding: 16px 30px;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid transparent;
+}
+.right-wing .author-portfolio .view-profile > .btn-custom:hover {
+  background: #FFFFFF;
+  color: #33b5e5;
+  border: 1px solid #33b5e5;
+}
+/******************************************** STYLES FOR SELECTIZE TAGS *****************************************/
+.selectize-control.plugin-remove_button [data-value] .remove {
+  position: relative !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 24px !important;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px !important;
+  color: #FFFFFF !important;
+  text-decoration: none;
+  vertical-align: middle;
+  display: inline-block;
+  padding: 1px 0 0 0;
+  border-left: 1px solid rgba(0, 0, 0, 0);
+  -webkit-border-radius: 0 2px 2px 0;
+  -moz-border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-left: 10px !important;
+  border-left: 1px solid #bdbcbc !important;
+  padding-left: 5px !important;
+}
+.selectize-control.multi .selectize-input > div {
+  cursor: pointer;
+  margin: 5px important;
+  padding: 5px 5px !important;
+  background: #a9a9a9 !important;
+  color: #FFFFFF !important;
+  border-radius: 0px !important;
+  font-size: 12px !important;
+  font-family: 'Roboto Slab', serif !important;
+  padding-left: 10px !important;
+}
+/******************************************** STYLES FOR SELECTIZE TAGS *****************************************/
+@media (max-width: 480px) {
+  .fes-vendor-menu-bsg {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .fes-vendor-menu-bsg > ul {
+    text-align: center;
+  }
+  .fes-vendor-menu-bsg > ul li {
+    display: block;
+  }
+  .vendor-line {
+    display: none;
+  }
+}
