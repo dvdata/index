@@ -1,0 +1,582 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,700,600,800,400);
+/**********fonts included here***********/
+/**********variables declared here***********/
+/***************************************** HEADING STYLING ***********************************************/
+.audiofy-heading {
+  clear: both;
+  height: 13.09375px;
+  background-color: #F0F0F0;
+}
+.audiofy-heading .title {
+  background-color: #FFFFFF;
+  text-transform: uppercase;
+  float: left;
+  padding-right: 20px;
+  margin-bottom: 42px;
+  margin-top: -4px;
+}
+.audiofy-heading .title h3 {
+  margin: 0px;
+  font-size: 18px;
+  line-height: 26px;
+  color: #333;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 600;
+  letter-spacing: 1px !important;
+}
+/****************************** DETAILED PRODUCT *********************************/
+.detalided-product {
+  margin-top: 66px;
+  /****************************** LEFT WING *********************************/
+  /****************************** LEFT WING *********************************/
+  /*******************************************************************************************************************************************************************************/
+  /****************************** RIGHT WING  *********************************/
+  /****************************** RIGHT WING  *********************************/
+}
+.detalided-product .left-wing {
+  /****************************** PRODUCT DESCRIPTION *********************************/
+  /****************************** PRODUCT DESCRIPTION *********************************/
+  /****************************** RECOMENDATIONS *********************************/
+  /****************************** RECOMENDATIONS *********************************/
+  /****************************** CUSTOMER REVIEW *********************************/
+  /****************************** CUSTOMER REVIEW *********************************/
+  /****************************** POST COMMENT *********************************/
+  /****************************** POST COMMENT *********************************/
+}
+.detalided-product .left-wing .product-description {
+  margin-bottom: 80px;
+}
+.detalided-product .left-wing .product-description p {
+  font-family: 'Roboto Slab', serif;
+  color: #777777;
+  line-height: 26px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  clear: both;
+}
+.detalided-product .left-wing .recomendations {
+  clear: both;
+  margin-bottom: 100px;
+}
+.detalided-product .left-wing .customer-review {
+  clear: both;
+  position: relative;
+  margin-bottom: 80px;
+  /****************************** COMMENT *********************************/
+  /****************************** COMMENT *********************************/
+}
+.detalided-product .left-wing .customer-review .comment {
+  background: #FCFCFC;
+  clear: both;
+  border: 1px solid #e9e9e9;
+  margin-bottom: 20px;
+}
+.detalided-product .left-wing .customer-review .comment .comment-details {
+  padding: 13px 15px;
+  border-bottom: 1px solid #e9e9e9;
+}
+.detalided-product .left-wing .customer-review .comment .comment-details ul {
+  margin: 0px!important;
+}
+.detalided-product .left-wing .customer-review .comment .comment-details ul li {
+  padding: 0px;
+}
+.detalided-product .left-wing .customer-review .comment .comment-details ul li a {
+  text-decoration: none;
+  line-height: 26px;
+  font-family: 'Roboto Slab', serif;
+  color: #777777;
+}
+.detalided-product .left-wing .customer-review .comment .comment-details ul li a > h5 {
+  color: blue;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  color: #333333;
+  line-height: 26px;
+  letter-spacing: 0.15px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+.detalided-product .left-wing .customer-review .comment .comment-details ul li .rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.detalided-product .left-wing .customer-review .comment .comment-details ul li .rating > a > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+  color: #33b5e5;
+}
+.detalided-product .left-wing .customer-review .comment .comment-details ul li .rating > a > span:hover:before,
+.detalided-product .left-wing .customer-review .comment .comment-details ul li .rating > a > span:hover ~ span:before {
+  content: "\2605";
+  position: absolute;
+}
+.detalided-product .left-wing .customer-review .comment .comment-description {
+  padding: 13px 15px;
+  display: table;
+}
+.detalided-product .left-wing .customer-review .comment .comment-description .image-holder {
+  background: #d8d8d8;
+  height: 93px;
+  width: 93px;
+  float: left;
+}
+.detalided-product .left-wing .customer-review .comment .comment-description .image-holder > img {
+  height: inherit;
+  width: inherit;
+  clear: both;
+}
+.detalided-product .left-wing .customer-review .comment .comment-description p {
+  margin-left: 113px;
+  font-family: 'Roboto Slab', serif;
+  line-height: 26px;
+  color: #848484;
+}
+.detalided-product .left-wing .post-comment {
+  clear: both;
+}
+.detalided-product .left-wing .post-comment ul {
+  clear: both;
+  margin: 0px;
+}
+.detalided-product .left-wing .post-comment ul > li {
+  padding-right: 25px;
+}
+.detalided-product .left-wing .post-comment ul > li > h6 {
+  color: #333;
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 28px;
+  margin: 0px;
+}
+.detalided-product .left-wing .post-comment ul > li .rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.detalided-product .left-wing .post-comment ul > li .rating > a > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+  color: #333333;
+}
+.detalided-product .left-wing .post-comment ul > li .rating > a > span:hover:before,
+.detalided-product .left-wing .post-comment ul > li .rating > a > span:hover ~ span:before {
+  content: "\2605";
+  position: absolute;
+}
+.detalided-product .left-wing .post-comment .comment-form {
+  margin-top: 26px;
+  margin-bottom: 80px;
+}
+.detalided-product .left-wing .post-comment .comment-form .form-group .form-control {
+  background: #fcfcfc;
+  border-radius: 0px;
+  border-color: #e9e9e9;
+  box-shadow: none;
+  height: 50px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 12px;
+  color: #636467;
+}
+.detalided-product .left-wing .post-comment .comment-form .form-group .form-control.textarea {
+  height: auto;
+}
+.detalided-product .left-wing .post-comment .comment-form .btn-custom {
+  border-radius: 0px;
+  background: #33b5e5;
+  font-size: 12px;
+  line-height: 28px;
+  color: #FFFFFE;
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  outline: none;
+  box-shadow: none;
+  border: 0px;
+  padding: 7px 30px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  border: 1px solid transparent;
+}
+.detalided-product .left-wing .post-comment .comment-form .btn-custom:hover {
+  background: #FFFFFF;
+  color: #33b5e5;
+  border: 1px solid #33b5e5;
+}
+.detalided-product .right-wing {
+  /*************************** AUTHOR PORTFOLIO *****************************/
+  margin-bottom: 30px;
+  /*************************** AUTHOR PORTFOLIO *****************************/
+  /*************************** STATISTICS *****************************/
+  /*************************** STATISTICS *****************************/
+  /*************************** PRODUCT DETAILS *****************************/
+  /*************************** PRODUCT DETAILS *****************************/
+  /*************************** SOCIAL MEDIA *****************************/
+  /*************************** SOCIAL MEDIA *****************************/
+}
+.detalided-product .right-wing .author-portfolio {
+  border: 1px solid #e9e9e9;
+  margin-bottom: 30px;
+}
+.detalided-product .right-wing .author-portfolio .author-info {
+  padding: 23px 30px;
+}
+.detalided-product .right-wing .author-portfolio .author-info .image-holder {
+  float: left;
+}
+.detalided-product .right-wing .author-portfolio .author-info .image-holder > img {
+  width: 85px;
+  height: 84px;
+  margin-right: 14px;
+}
+.detalided-product .right-wing .author-portfolio .author-info > h4.author-name {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Roboto Slab', serif;
+  line-height: 26px;
+  color: #333333;
+  margin: 0px;
+  text-transform: capitalize;
+}
+.detalided-product .right-wing .author-portfolio .author-info h6.country {
+  font-family: 'Roboto Slab', serif;
+  font-size: 11px;
+  color: #777777;
+  margin: 0px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.detalided-product .right-wing .author-portfolio .author-info > p {
+  padding-top: 20px;
+  font-family: 'Roboto Slab', serif;
+}
+.detalided-product .right-wing .author-portfolio .author-info > p > .btn-custom {
+  border-radius: 0px;
+  background: #33b5e5;
+  font-size: 12px;
+  line-height: 26px;
+  color: #FFFFFE;
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  outline: none;
+  box-shadow: none;
+  border: 0px;
+  padding: 16px 30px;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  border: 1px solid transparent;
+}
+.detalided-product .right-wing .author-portfolio .author-info > p > .btn-custom:hover {
+  background: #FFFFFF;
+  color: #33b5e5;
+  border: 1px solid #33b5e5;
+}
+.detalided-product .right-wing .author-portfolio .view-profile {
+  clear: both;
+  padding: 20px 20px;
+  border-top: 1px solid #e9e9e9;
+}
+.detalided-product .right-wing .author-portfolio .view-profile > .btn-custom {
+  border-radius: 0px;
+  background: #33b5e5;
+  font-size: 12px;
+  line-height: 26px;
+  color: #FFFFFE;
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  outline: none;
+  box-shadow: none;
+  border: 0px;
+  padding: 16px 30px;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  border: 1px solid transparent;
+}
+.detalided-product .right-wing .author-portfolio .view-profile > .btn-custom:hover {
+  background: #FFFFFF;
+  color: #33b5e5;
+  border: 1px solid #33b5e5;
+}
+.detalided-product .right-wing .statistics {
+  border: 1px solid #e9e9e9;
+  margin-bottom: 30px;
+}
+.detalided-product .right-wing .statistics .row .col-md-6 {
+  padding: 15px 0px;
+}
+.detalided-product .right-wing .statistics .row .col-md-6:first-child {
+  border-right: 1px solid #e9e9e9;
+}
+.detalided-product .right-wing .statistics .sales {
+  text-align: center;
+}
+.detalided-product .right-wing .statistics .sales > i {
+  color: #33b5e5;
+  font-size: 14px;
+}
+.detalided-product .right-wing .statistics .sales > h5 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  color: #333333;
+  font-size: 14px;
+  line-height: 26px;
+  margin-bottom: 5px;
+}
+.detalided-product .right-wing .statistics .sales > p {
+  font-family: 'Roboto Slab', serif;
+  color: #777777;
+  text-transform: capitalize;
+}
+.detalided-product .right-wing .statistics .author-rating {
+  text-align: center;
+}
+.detalided-product .right-wing .statistics .author-rating .ratings {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.detalided-product .right-wing .statistics .author-rating .ratings > a > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+  color: #33b5e5;
+}
+.detalided-product .right-wing .statistics .author-rating .ratings > a > span:hover:before,
+.detalided-product .right-wing .statistics .author-rating .ratings > a > span:hover ~ span:before {
+  content: "\2605";
+  position: absolute;
+}
+.detalided-product .right-wing .statistics .author-rating > h5 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  color: #333333;
+  font-size: 14px;
+  line-height: 26px;
+  margin-bottom: 5px;
+}
+.detalided-product .right-wing .statistics .author-rating > p {
+  font-family: 'Roboto Slab', serif;
+  color: #777777;
+  text-transform: capitalize;
+}
+.detalided-product .right-wing .product-details {
+  padding: 30px 20px;
+  border: 1px solid #e9e9e9;
+  margin-bottom: 30px;
+}
+.detalided-product .right-wing .product-details .table-custom {
+  margin-bottom: 0px !important;
+}
+.detalided-product .right-wing .product-details .table-custom tr td {
+  font-family: 'Roboto Slab', serif !important;
+  border: 0px !important;
+}
+.detalided-product .right-wing .top-products-border {
+  border: 1px solid #e9e9e9;
+  margin-bottom: 36px;
+  position: relative;
+}
+.detalided-product .right-wing .top-products-border .top-products {
+  padding: 20px 32px 16px 26px;
+}
+.detalided-product .right-wing .top-products-border .top-products p {
+  color: #333333;
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 26px;
+}
+.detalided-product .right-wing .top-products-border .top-products .product-block {
+  clear: both;
+  background: linear-gradient(to right, #ffffff 50%, #333333 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all 500ms ease;
+  margin-bottom: 34px;
+  height: 84px;
+}
+.detalided-product .right-wing .top-products-border .top-products .product-block .product-image {
+  float: left;
+  width: 84px;
+  height: 84px;
+  background-color: #000000;
+}
+.detalided-product .right-wing .top-products-border .top-products .product-block .product-image img {
+  width: 84px;
+  height: 84px;
+}
+.detalided-product .right-wing .top-products-border .top-products .product-block .product-image .song {
+  width: 26.40625px;
+  height: 26.21875px;
+  background-color: #33B5E5;
+  display: block;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 26px;
+  margin-top: -26px;
+  margin-left: 58px;
+  position: absolute;
+  z-index: 1;
+}
+.detalided-product .right-wing .top-products-border .top-products .product-block .product-details {
+  float: left;
+  margin-left: 20px;
+  font-family: 'Roboto Slab', serif;
+}
+.detalided-product .right-wing .top-products-border .top-products .product-block .product-details .title {
+  color: #333;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 26px;
+  transition: all 500ms ease;
+}
+.detalided-product .right-wing .top-products-border .top-products .product-block .product-details .price {
+  color: #33B5E5;
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.detalided-product .right-wing .top-products-border .top-products .product-block .product-details .author {
+  color: #777;
+  font-family: 'Roboto Slab', serif;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 500ms ease;
+}
+.detalided-product .right-wing .top-products-border .top-products .product-block .product-details .album-year {
+  color: #333;
+  font-family: 'Roboto Slab', serif;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 3px;
+  transition: all 500ms ease;
+}
+.detalided-product .right-wing .top-products-border .top-products .product-block .product-details .album-year .number {
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+.detalided-product .right-wing .top-products-border .top-products .product-block .detail-buttons {
+  display: none;
+}
+.detalided-product .right-wing .top-products-border .top-products .product-block:hover {
+  background-position: right bottom;
+}
+.detalided-product .right-wing .top-products-border .top-products .product-block:hover .title,
+.detalided-product .right-wing .top-products-border .top-products .product-block:hover .price {
+  color: #FFF;
+}
+.detalided-product .right-wing .top-products-border .top-products .product-block:hover .album-year {
+  color: #B6B6B6;
+}
+.detalided-product .right-wing .top-products-border .top-products .product-block:hover .album-year .number {
+  color: #949494;
+}
+.detalided-product .right-wing .top-products-border .top-products .product-block:hover .detail-buttons {
+  float: right;
+  height: 83.8125px;
+  background-color: #252525;
+  margin-left: 5px;
+  display: block;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+}
+.detalided-product .right-wing .top-products-border .top-products .product-block:hover .detail-buttons .btn {
+  width: 45px;
+  height: 26.40625px;
+  color: #FFF;
+  font-family: 'Roboto Slab', serif;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: block;
+  margin: 11px;
+  border-radius: 0px;
+}
+.detalided-product .right-wing .top-products-border .top-products .product-block:hover .detail-buttons .btn.btn-buy {
+  background-color: #99CB00;
+  border-color: #99CB00;
+}
+.detalided-product .right-wing .top-products-border .top-products .product-block:hover .detail-buttons .btn.btn-details {
+  background-color: #33B5E5;
+  border-color: #33B5E5;
+}
+.detalided-product .right-wing .social-media {
+  padding: 23px 20px;
+  border: 1px solid #e9e9e9;
+  margin-bottom: 30px;
+}
+.detalided-product .right-wing .social-media > h5.heading {
+  font-family: 'Roboto Slab', serif;
+  color: #333333;
+  text-transform: capitalize;
+  font-size: 13px;
+  line-height: 26px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.detalided-product .right-wing .social-media ul.social {
+  margin: 0px;
+}
+.detalided-product .right-wing .social-media ul.social li {
+  height: 30px;
+  width: 30px;
+  background: red;
+  text-align: center;
+  line-height: 30px;
+  margin: 0px 2px;
+}
+.detalided-product .right-wing .social-media ul.social li.facebook {
+  background: #3e5a99;
+}
+.detalided-product .right-wing .social-media ul.social li.twitter {
+  background: #00aced;
+}
+.detalided-product .right-wing .social-media ul.social li.google-plus {
+  background: #ff4444;
+}
+.detalided-product .right-wing .social-media ul.social li.youtube {
+  background: #cc181e;
+}
+.detalided-product .right-wing .social-media ul.social li.flickr {
+  background: #fe0084;
+}
+.detalided-product .right-wing .social-media ul.social li > a {
+  padding: 5px 3px;
+}
+.detalided-product .right-wing .social-media ul.social li > a > i {
+  color: #FFFFFF;
+}
+.detalided-product .right-wing p.copyrights {
+  color: #333333;
+  font-family: 'Roboto Slab', serif;
+  line-height: 26px;
+  font-size: 12px;
+}
+.detalided-product .right-wing p.copyrights > span {
+  font-weight: 700;
+}
+/****************************** DETAILED PRODUCT *********************************/
