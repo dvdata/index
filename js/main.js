@@ -1,148 +1,212 @@
-(function($) {
-  "use strict";
+/* =Main INIT Function
+-------------------------------------------------------------- */
+function initializeSite() {
+	"use strict";
 
-  $('.btn-buy').click(function(e){
-    e.preventDefault();
-    $(this).html('<i class="fa  fa-spinner fa-spin"></i>');
-    $('.cart-number').removeClass('animated bounce');
-    var vj =$(this);
-    setTimeout(function(){
-      if(vj.hasClass('small-cart'))
-      {
-        vj.html('<i class="fa fa-check"></i>');
-      }
-      else
-      {
-        vj.html('in cart <i class="fa fa-check"></i>');  
-      }
-        var cartNumber = parseInt($('.cart-number').text(),10)+1;
-        $('.cart-number').html(cartNumber);
-        $('.cart-number').addClass('animated bounce');
-    },2000);
+    // Init effect 
+    $('#scene').parallax();
 
-    //setTimeout(function(){alert("Hello")}, 3000);
+	// Center and outline
+	(function() {
+	    function centerInit(){
+	    	var hero 			= $('#hero'),
+	    		sphere 			= $('.sphere'),
+	    		sphereMargin 	= ($(window).height() - sphere.height()) / 2,
+	    		heroContent		= $('.hero-content'),
+	    		contentMargin 	= ($(window).height() - heroContent.height()) / 2;
 
-  });
-    if($('#audiozy-client').length)
-      {
-        var owl = $("#audiozy-client");
-      owl.owlCarousel({
-        navigation : true, // Show next and prev buttons    
-          items :5, //10 items above 1000px browser width
-          itemsDesktop : [1000,2], //5 items between 1000px and 901px
-          itemsDesktopSmall : [900,2], // 3 items betweem 900px and 601px
-          itemsTablet: [600,1], //2 items between 600 and 0;
-          itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option  
+	    	hero.css ({
+	    		height : $(window).height() + "px"
+	    	});
 
-        });    
-      }
-      if($('.selectpicker').length)
-      {
-         $('.selectpicker').selectpicker({
-                    iconBase: 'fa',
-                    tickIcon: 'fa-check-circle',
-                }); 
-      }
-      // marquee
-      if($('h4.title').length)
-      {
-         $('h4.title').marquee();         
-      }
-      //marquee
-      // nicescroll
-      if($('html').length)
-      {
-          $("html").niceScroll();         
-      }
-      // nicescroll
-      if($('.hero-unit').length)
-      {
-          $('.hero-unit').parallax("50%",0.1);       
-      }
-      if($('.audiozy-question').length)
-      {
-          $('.audiozy-question').parallax("50%",0.3);       
-      }
-      if($('.audiozy-waiting-quote').length)
-      {
-          $('.audiozy-waiting-quote').parallax("50%",0.3);       
-      }
+	    	sphere.css({
+				"margin-top" : sphereMargin + "px"
+			});
 
-      if($('.recent-blocks').length)
-      {
-         $('.recent-blocks').hover(function(){
-          $('.recent-over').removeClass('show');
-          $(this).find('.recent-over').addClass('show');
-        })
-      }
+			heroContent.css({
+				"margin-top" : contentMargin + "px"
+			});
+	    }
 
-      if($('#audiozy-client').length)
-      {
-        var owl = $("#audiozy-client");
-      owl.owlCarousel({
-        navigation : true, // Show next and prev buttons    
-          items :5, //10 items above 1000px browser width
-          itemsDesktop : [1000,2], //5 items between 1000px and 901px
-          itemsDesktopSmall : [900,2], // 3 items betweem 900px and 601px
-          itemsTablet: [600,1], //2 items between 600 and 0;
-          itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option  
+	    $(document).ready(centerInit);
+		$(window).resize(centerInit);
+	})();
 
-        });    
-      }
-      if($('#testimonial-carousel').length)
-      {
-        $("#testimonial-carousel").owlCarousel({
-            navigation : true, // Show next and prev buttons
-            slideSpeed : 300,
-            paginationSpeed : 400,
-            singleItem:true
+	// Local scroll
+	$('#hero').localScroll({
+		duration:1000
+	});
 
-            // "singleItem:true" is a shortcut for:
-            // items : 1, 
-            // itemsDesktop : false,
-            // itemsDesktopSmall : false,
-            // itemsTablet: false,
-            // itemsMobile : false
-          });  
-      }
-      if($('.isotope').length)
-      {
-         // init Isotope
-        var $container = $('.isotope').isotope({
-          itemSelector: '.element-item',
-          layoutMode: 'fitRows'
+	// Light box init
+	$('.lightbox').magnificPopup({
+		type: 'image',
+		 mainClass: 'mfp-with-zoom mfp-fade',
+
+		zoom: {
+			enabled: true,
+
+			duration: 300,
+			easing: 'ease-in-out',
+
+			opener: function(openerElement) {
+				return openerElement.is('img') ? openerElement : openerElement.find('img');
+			}
+		}
+	});
+
+    // Contact Form
+    $(function() {
+        $('#contact').validate({
+
+            rules: {
+                name: {
+                    required: true,
+                    minlength: 2
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                message: {
+                    required: true
+                }
+            },
+
+            messages: {
+                name: {
+                    required: "come on, you have a name don't you?",
+                    minlength: "your name must consist of at least 2 characters"
+                },
+                email: {
+                    required: "no email, no message"
+                },
+                message: {
+                    required: "um...yea, you have to write something to send this form.",
+                    minlength: "thats all? really?"
+                }
+            },
+            submitHandler: function(form) {
+                $(form).ajaxSubmit({
+                    type:"POST",
+                    data: $(form).serialize(),
+                    url:"contact.php",
+                    success: function() {
+                        $('#contact :input').attr('disabled', 'disabled');
+                        $('#contact').fadeTo( "slow", 0.15, function() {
+                            $(this).find(':input').attr('disabled', 'disabled');
+                            $(this).find('label').css('cursor','default');
+                            $('#success').fadeIn();
+                        });
+                    },
+                    error: function() {
+                        $('#contact').fadeTo( "slow", 0.15, function() {
+                            $('#error').fadeIn();
+                        });
+                    }
+                });
+            }
         });
-            // filter functions
-            var filterFns = {
-              // show if number is greater than 50
-              numberGreaterThan50: function() {
-                var number = $(this).find('.number').text();
-                return parseInt( number, 10 ) > 50;
-              },
-              // show if name ends with -ium
-              ium: function() {
-                var name = $(this).find('.name').text();
-                return name.match( /ium$/ );
-              }
-            };
-            // bind filter button click
-            $('#filters').on( 'click', 'button', function() {
-              var filterValue = $( this ).attr('data-filter');
-              // use filterFn if matches value
-              filterValue = filterFns[ filterValue ] || filterValue;
-              $container.isotope({ filter: filterValue });
+    });
+
+	// MailChimp Integration
+	ajaxMailChimpForm($("#subscribe-form"), $("#subscribe-result"));
+    // Turn the given MailChimp form into an ajax version of it.
+    // If resultElement is given, the subscribe result is set as html to
+    // that element.
+    function ajaxMailChimpForm($form, $resultElement){
+            // Hijack the submission. We'll submit the form manually.
+            $form.submit(function(e) {
+                e.preventDefault();
+                if (!isValidEmail($form)) {
+                    var error =  "A valid email address must be provided.";
+                    $resultElement.hide();
+                    $resultElement.html(error);
+                    $resultElement.fadeIn();
+                    $resultElement.removeClass('notification-success');
+                    $resultElement.addClass('notification-error');
+                } else {
+                    submitSubscribeForm($form, $resultElement);
+                }
             });
-            // change is-checked class on buttons
-            $('.button-group').each( function( i, buttonGroup ) {
-              var $buttonGroup = $( buttonGroup );
-              $buttonGroup.on( 'click', 'button', function() {
-                $buttonGroup.find('.is-checked').removeClass('is-checked');
-                $( this ).addClass('is-checked');
-              });
-            }); 
-      }
-      
+        }
+        // Validate the email address in the form
+        function isValidEmail($form) {
+            // If email is empty, show error message.
+            // contains just one @
+            var email = $form.find("input[type='email']").val();
+            if (!email || !email.length) {
+                return false;
+            } else if (email.indexOf("@") == -1) {
+                return false;
+            }
+            return true;
+        }
+        // Submit the form with an ajax/jsonp request.
+        // Based on http://stackoverflow.com/a/15120409/215821
+        function submitSubscribeForm($form, $resultElement) {
+            $.ajax({
+                type: "GET",
+                url: $form.attr("action"),
+                data: $form.serialize(),
+                cache: false,
+                dataType: "jsonp",
+                jsonp: "c", // trigger MailChimp to return a JSONP response
+                contentType: "application/json; charset=utf-8",
+                error: function(error){
+                    // According to jquery docs, this is never called for cross-domain JSONP requests
+                },
+                success: function(data){
+                    if (data.result != "success") {
+                        var message = data.msg || "Sorry. Unable to subscribe. Please try again later.";
+                        if (data.msg && data.msg.indexOf("already subscribed") >= 0) {
+                            message = "You're already subscribed. Thank you.";
+                        }
+                        $resultElement.hide();
+                        $resultElement.html(message);
+                        $resultElement.fadeIn();
+                        $resultElement.removeClass('notification-error');
+                        $resultElement.addClass('notification-success');
+                    } else {
+                        $resultElement.hide();
+                        $resultElement.html("Thank you! You must confirm the subscription in your inbox.");
+                        $resultElement.fadeIn();
+                        $resultElement.removeClass('notification-error');
+                        $resultElement.addClass('notification-success');
+                    }
+                }
+            });
+    }
+
+};
+/* END ------------------------------------------------------- */
 
 
-$('.bsg-player').waypoint('sticky');
-})(jQuery);
+/* =Document Ready Trigger
+-------------------------------------------------------------- */
+$(window).load(function(){
+
+	initializeSite();
+
+    $('.corner').click(function(){
+        $('#options').slideToggle()
+    });
+
+});
+/* END ------------------------------------------------------- */
+
+
+/* =Window Load Trigger
+-------------------------------------------------------------- */
+$(window).load(function(){
+
+	//SKROLLR 
+    if (Modernizr.touch) {
+        skrollr.init().destroy();
+    } else {   
+        skrollr.init({
+        	forceHeight: false
+        });  
+    }
+
+});
+/* END ------------------------------------------------------- */
