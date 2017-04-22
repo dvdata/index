@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <title>Scared Silly - HTML Game</title>
+    <style>
+        body {
+            background-color: #000000;
+        }
+        canvas {
+            display: block;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+    </style>
+    <!-- build:js combined.js -->
+    <!--PIXI-->
+    <script src="lib/tweenjs-0.6.2.combined.js"></script>
+    <script src="lib/pixi.js"></script>
+    <script src="lib/signal.js"></script>
+    <script src="lib/pixi-flash.js"></script>
+    <script src="lib/pixi-particles.js"></script>
+    <script src="lib/animated-particle.js"></script>
+    <script src="lib/path-particle.js"></script>
+    <!--SOUND-->
+    <script src="lib/soundjs-0.6.2.combined.js"></script>
+    <script src="lib/soundmanager.js"></script>
+    <!--WONBATS-->
+    <script src="lib/smartbutton.js"></script>
+    <script src="lib/screenflow.js"></script>
+    <!--UTILS-->
+    <script src="lib/fpsmeter.js"></script>
+    <!--ASSETS-->
+    <script src="lib_assets/hud.js"></script>
+    <script src="lib_assets/levelselection.js"></script>
+    <script src="lib_assets/mainmenu.js"></script>
+    <script src="lib_assets/cinematics.js"></script>
+    <script src="lib_assets/loading.js"></script>
+    <!--WONBATS-->
+    <script src="js/utils/wobjects.js"></script>
+    <script src="js/utils/wmath.js"></script>
+    <script src="js/utils/gameobjectfactory.js"></script>
+    <script src="js/utils/board.js"></script>
+    <script src="js/utils/camera.js"></script>
+    <script src="js/utils/lightning.js"></script>
+    <script src="js/gameobjects/gameobject.js"></script>
+    <script src="js/gameobjects/gameobjectmc.js"></script>
+    <script src="js/gameobjects/baseplayer.js"></script>
+    <script src="js/gameobjects/nodetile.js"></script>
+    <script src="js/gameobjects/player.js"></script>
+    <script src="js/gameobjects/enemy.js"></script>
+    <script src="js/gameobjects/trigger.js"></script>
+    <script src="js/gameobjects/blocker.js"></script>
+    <script src="js/gameobjects/cross.js"></script>
+    <script src="js/gameobjects/trap.js"></script>
+    <!--SCREENS-->
+    <script src="js/screen/intro.js"></script>
+    <script src="js/screen/ending.js"></script>
+    <script src="js/screen/credits.js"></script>
+    <script src="js/screen/level.js"></script>
+    <script src="js/screen/levelselection.js"></script>
+    <script src="js/screen/mainmenu.js"></script>
+    <script src="js/screen/preloader.js"></script>
+    <!--MAIN-->
+    <script src="js/config.js"></script>
+    <script src="js/config_fx.js"></script>
+    <script src="js/config_sound.js"></script>
+    <script src="js/config_anims.js"></script>
+    <script src="js/main.js"></script>
+    <!-- endbuild -->
+</head>
+
+<body onLoad="new game.Main()">
+</body>
+
+</html>
