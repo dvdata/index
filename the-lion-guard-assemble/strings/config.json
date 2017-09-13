@@ -1,0 +1,22 @@
+{
+	"locale":"en_US",
+	"left_to_right":true,
+	"app_button":{
+		"live":false,
+		"app_store_link":"https://control.kochava.com/v1/cpi/click?campaign_id=kothe-lion-guard-ios5643e2005a5ed8e8cfddbc79ea&network_id=464&device_id=device_id&site_id=EMEA-WEB-HTML5-TeaserGame-IOS-29012016-GB",
+		"app_store_live":false,
+		"amazon_link":"",
+		"amazon_live":false,
+		"google_link":"",
+		"google_live":false
+	},
+	"default_format":{
+		"fill":"0xFFFFFF", 
+		"font":"30px disney-junior-regular", 
+		"align":"center", 
+		"stroke":"0x000000", 
+		"strokeThickness":0
+	},
+	"enable_vo":true,
+	"enable_end_scene":true
+}

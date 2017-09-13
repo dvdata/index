@@ -1,0 +1,75 @@
+{"frames": {
+
+"end_game_beshte.png":
+{
+	"frame": {"x":2,"y":2,"w":616,"h":392},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":392},
+	"sourceSize": {"w":616,"h":391},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"end_game_bunga.png":
+{
+	"frame": {"x":786,"y":186,"w":162,"h":208},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":314,"y":134,"w":162,"h":208},
+	"sourceSize": {"w":616,"h":391},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"end_game_fuli.png":
+{
+	"frame": {"x":2,"y":396,"w":416,"h":218},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":116,"y":120,"w":416,"h":218},
+	"sourceSize": {"w":616,"h":391},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"end_game_medal_bronze.png":
+{
+	"frame": {"x":620,"y":2,"w":164,"h":182},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":182},
+	"sourceSize": {"w":164,"h":181},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"end_game_medal_gold.png":
+{
+	"frame": {"x":786,"y":2,"w":164,"h":182},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":182},
+	"sourceSize": {"w":164,"h":181},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"end_game_medal_silver.png":
+{
+	"frame": {"x":620,"y":186,"w":164,"h":182},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":182},
+	"sourceSize": {"w":164,"h":181},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"end_game_ono.png":
+{
+	"frame": {"x":620,"y":370,"w":120,"h":168},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":354,"y":162,"w":120,"h":168},
+	"sourceSize": {"w":616,"h":391},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "end_game_0.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ac79550b24717ebc589a6a7c6deede79:152a43c84a5c5abde24319fc54cb7ddb:4ade76e169f7d52eba62190db89d120d$"
+}
+}

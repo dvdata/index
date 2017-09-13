@@ -1,0 +1,19 @@
+{
+	"levels":
+	[
+		{
+			"data_id":"level1",
+			"start":{"x":1400, "y":700},
+			"end_x":22880,
+			"characters":["ono", "bunga"],
+			"tutorialFingerTriggers":[2350, 12750, 12950]
+		},
+		{
+			"data_id":"level2",
+			"start":{"x":1400, "y":700},
+			"end_x":20850,
+			"characters":["beshte", "fuli"],
+			"tutorialFingerTriggers":[]
+		}
+	]
+}

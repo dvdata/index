@@ -1,0 +1,13 @@
+
+@font-face {
+    font-family: 'disney-junior-regular';
+    src: url('disney-junior-regular.eot');
+    src: url('disney-junior-regular.eot?#iefix') format('embedded-opentype'),
+         url('disney-junior-regular.woff2') format('woff2'),
+         url('disney-junior-regular.woff') format('woff'),
+         url('disney-junior-regular.ttf') format('truetype'),
+         url('disney-junior-regular.svg#disney-junior-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

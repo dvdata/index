@@ -1,0 +1,144 @@
+{
+	"copy":
+	{
+		"APP_PAID_APP_AVAILABLE":{"copy":"PAID APP\nAVAILABLE*", 
+								  "format":
+								  {
+								  	"align":"center",
+								  	"font":"23px disney-junior-regular",
+								  	"align":"center",
+								  	"alignVertical":"center"
+								  }},
+
+		"APP_WATCH_THE_LION_GUARD":{"copy":"WATCH THE\nLION GUARD ON\nDISNEY JUNIOR", 
+									"format":
+									{
+										"font":"30px disney-junior-regular", 
+										"align":"center", 
+										"strokeThickness":5,
+										"alignVertical":"bottom"
+									}},
+
+		"APP_PARENT_PERMISSION_ASTERISK":{"copy":"*PARENT PERMISSION REQUIRED", 
+										  "format":
+										  {
+										  	"font":"30px disney-junior-regular", 
+											"align":"left",
+											"strokeThickness":5,
+											"alignVertical":"bottom"
+										  }},
+
+		"APP_PARENT_PERMISSION":{"copy":"Parent permission required.", 
+								 "format":
+								 {
+								 	"align":"left",
+								 	"font":"25px disney-junior-regular"
+								 }},
+
+		"APP_DESCRIPTION":{"copy":"Kion and the Lion Guard continue to\nprotect the Pride Lands in this\naction-packed adventure!", 
+						   "format":
+						   {
+						   		"fill":"0xfad26b",
+						   		"align":"left"
+						   }},
+
+		"APP_ARE_YOU_SURE":{"copy":"Are you sure you want to leave Disney?", 
+							"format":{
+								"fill":"0x262626",
+								"font":"43px disney-junior-regular"
+							}},
+
+		"APP_DISCLAIMER_1":{"copy":"Disney does not control the website you are going to so\nplease make sure you are happy to continue.", 
+							"format":{
+								"fill":"0x919191"
+							}},
+
+		"APP_DISCLAIMER_2":{"copy":"Disney's privacy practices and controls do not apply once\nyou leave our site. If you are a child reading this, please\nget your parent or guardian's permission to continue.", 
+							"format":{
+								"fill":"0x919191"
+							}},
+
+		"APP_GO_BACK":{"copy":"Go back", 
+					   "format":{
+					   		"fill":"0x262626",
+					   		"font":"29px disney-junior-regular",
+					   		"align":"center",
+					   		"alignVertical":"center"
+					   	}},
+
+		"APP_CONTINUE":{"copy":"Yes, continue", 
+						"format":{
+					   		"fill":"0x262626",
+					   		"font":"29px disney-junior-regular",
+					   		"align":"center",
+					   		"alignVertical":"center"
+					   	}},
+
+		"INSTRUCTIONS_RUN":{"copy":"Kion will run on his own", 
+							"format":{
+						   		"fill":"0xfad26b",
+						   		"align":"center",
+						   		"stroke":"0x5e0002", 
+								"strokeThickness":5
+						   	}},
+
+		"INSTRUCTIONS_JUMP":{"copy":"Tap to make Kion jump.\nTap again to double jump.", 
+							 "format":{
+						   		"fill":"0xfad26b",
+						   		"align":"center",
+							   	"stroke":"0x5e0002", 
+								"strokeThickness":5
+						   	}},
+
+		"INSTRUCTIONS_COLLECTIBLES":{"copy":"Run through the sun coins and roar\ntokens to collect them", 
+									 "format":{
+								   		"fill":"0xfad26b",
+								   		"align":"left",
+								   		"stroke":"0x5e0002", 
+										"strokeThickness":5
+								   	}},
+
+		"INSTRUCTIONS_ROAR_TOKENS":{"copy":"After collecting 5 roar tokens\ntap the 'dash' button to become\ninvincible from enemies", 
+									"format":{
+								   		"fill":"0xfad26b",
+								   		"align":"left",
+								   		"stroke":"0x5e0002", 
+										"strokeThickness":5
+								   	}},
+
+		"INSTRUCTIONS_OBSTACLES":{"copy":"Avoid the naughty hyenas,\nobstacles and pits because\nyou will lose a life", 
+								  "format":{
+								   		"fill":"0xfad26b",
+								   		"align":"center",
+								   		"stroke":"0x5e0002", 
+										"strokeThickness":5
+								   	}},
+
+		"INSTRUCTIONS_FRIENDS":{"copy":"Find Kion's friends to form the Lion Guard!", 
+								"format":{
+							   		"fill":"0xfad26b",
+							   		"align":"center",
+							   		"stroke":"0x5e0002", 
+									"strokeThickness":5
+							   	}},
+
+		"GAME_LEVEL":{"copy":"LEVEL **", 
+					  "format":{
+					  		"font":"53px disney-junior-regular",
+					  		"fill":"0xfad26b",
+					  		"align":"center",
+					  		"stroke":"0x5e0002", 
+							"strokeThickness":5,
+							"offset":{"x":12, "y":3}
+						}},
+
+		"GAME_TRY_AGAIN":{"copy":"TRY AGAIN!", "format":{
+					  		"font":"60px disney-junior-regular",
+					  		"fill":"0xfad26b",
+					  		"align":"center",
+					  		"stroke":"0x5e0002", 
+							"strokeThickness":7,
+							"offset":{"x":13}
+						}}
+	}
+}
